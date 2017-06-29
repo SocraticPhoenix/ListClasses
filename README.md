@@ -25,8 +25,8 @@ repositories {
 }
 
 dependencies {
-    apt "com.github.SocraticPhoenix:ListClasses:0.0.0"
-    compileOnly "com.github.SocraticPhoenix:ListClasses:0.0.0"
+    apt "com.github.SocraticPhoenix:ListClasses:0.0.1"
+    compileOnly "com.github.SocraticPhoenix:ListClasses:0.0.1"
 }
 ```
 
