@@ -25,8 +25,12 @@ repositories {
 }
 
 dependencies {
-    apt "com.github.SocraticPhoenix:ListClasses:0.0.1"
-    compileOnly "com.github.SocraticPhoenix:ListClasses:0.0.1"
+    apt "com.github.SocraticPhoenix:ListClasses:master-SNAPSHOT"
+    compileOnly "com.github.SocraticPhoenix:ListClasses:master-SNAPSHOT"
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 ```
 
